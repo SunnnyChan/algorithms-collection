@@ -1,6 +1,8 @@
 package me.sunny.demo.algos.leetcode;
 
-import me.sunny.demo.algos.leetcode.RemoveLinkedListElements.ListNode;
+import me.sunny.demo.algos.leetcode.easy.RemoveLinkedListElements;
+import me.sunny.demo.algos.leetcode.easy.RemoveLinkedListElements.ListNode;
+import me.sunny.demo.algos.leetcode.easy.HappyNumber;
 import org.junit.Test;
 import org.testng.Assert;
 

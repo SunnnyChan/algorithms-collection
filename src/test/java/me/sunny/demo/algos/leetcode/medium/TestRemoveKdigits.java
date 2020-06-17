@@ -1,5 +1,6 @@
-package me.sunny.demo.algos.leetcode;
+package me.sunny.demo.algos.leetcode.medium;
 
+import me.sunny.demo.algos.leetcode.medium.RemoveKdigits;
 import org.junit.Test;
 import org.testng.Assert;
 

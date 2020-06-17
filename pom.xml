@@ -7,10 +7,11 @@
     <artifactId>demo</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
+
   <groupId>me.sunny.demo.algos</groupId>
-  <artifactId>demo-algos</artifactId>
+  <artifactId>algorithms-collection</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>demo-algos</name>
+  <name>algorithms-collection</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
