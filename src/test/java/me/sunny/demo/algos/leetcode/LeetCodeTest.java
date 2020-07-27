@@ -1,12 +1,14 @@
 package me.sunny.demo.algos.leetcode;
 
+import java.io.Serializable;
+
 import me.sunny.demo.algos.leetcode.easy.RemoveLinkedListElements;
 import me.sunny.demo.algos.leetcode.easy.RemoveLinkedListElements.ListNode;
 import me.sunny.demo.algos.leetcode.easy.HappyNumber;
 import org.junit.Test;
 import org.testng.Assert;
 
-public class LeetCodeTest {
+public class LeetCodeTest implements Serializable {
 
     @Test
     public void testHappyNumber() {
