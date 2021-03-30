@@ -8,5 +8,4 @@ import java.util.BitSet;
 public class JavaBitSet {
 
   private BitSet bitSet = new BitSet();
-
 }
