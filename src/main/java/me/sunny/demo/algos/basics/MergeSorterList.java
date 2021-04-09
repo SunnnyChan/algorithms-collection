@@ -1,15 +1,15 @@
-package me.sunny.demo.algos.ds.java;
+package me.sunny.demo.algos.basics;
 
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-import me.sunny.demo.algos.ds.java.def.ListNode;
+import me.sunny.demo.algos.ds.def.ListNode;
 /**
  * 问题：2个有序链表合并为一个有序链表，链表值int类型
  */
-public class JavaMergeSorterList {
+public class MergeSorterList {
 
   public List<Integer> merge1 (List<Integer> l1, List<Integer> l2) {
     if (l1.isEmpty()) {

@@ -4,10 +4,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-import com.alibaba.fastjson.JSON;
-
-import me.sunny.demo.algos.ds.java.JavaMergeSorterList;
-import me.sunny.demo.algos.ds.java.def.ListNode;
+import me.sunny.demo.algos.basics.MergeSorterList;
+import me.sunny.demo.algos.ds.def.ListNode;
 import org.junit.Test;
 
 public class JavaMergeSortedListTest {
@@ -27,7 +25,7 @@ public class JavaMergeSortedListTest {
     lt2.add(21);
     lt2.add(50);
 
-    System.out.println(new JavaMergeSorterList().merge1(lt1, lt2));
+    System.out.println(new MergeSorterList().merge1(lt1, lt2));
   }
   @Test
   public void test12() {
@@ -36,7 +34,7 @@ public class JavaMergeSortedListTest {
 
     lt1.add(1);
 
-    System.out.println(new JavaMergeSorterList().merge1(lt1, lt2));
+    System.out.println(new MergeSorterList().merge1(lt1, lt2));
   }
 
   @Test
@@ -47,7 +45,7 @@ public class JavaMergeSortedListTest {
     lt1.add(1);
     lt2.add(4);
 
-    System.out.println(new JavaMergeSorterList().merge1(lt1, lt2));
+    System.out.println(new MergeSorterList().merge1(lt1, lt2));
   }
 
   @Test
@@ -58,7 +56,7 @@ public class JavaMergeSortedListTest {
     lt1.add(4);
     lt2.add(1);
 
-    System.out.println(new JavaMergeSorterList().merge1(lt1, lt2));
+    System.out.println(new MergeSorterList().merge1(lt1, lt2));
   }
 
   @Test
@@ -66,7 +64,7 @@ public class JavaMergeSortedListTest {
     ListNode l1 = new ListNode(4, null);
     ListNode l2 = new ListNode(1, null);
 
-    ListNode lre = new JavaMergeSorterList().merge2(l1, l2);
+    ListNode lre = new MergeSorterList().merge2(l1, l2);
     while (!Objects.isNull(lre)) {
       System.out.println(lre.getValue() + ", ");
       lre = lre.getNext();
@@ -93,7 +91,7 @@ public class JavaMergeSortedListTest {
     cc2.setNext(new ListNode(50, null));
     cc2 = cc2.getNext();
 
-    ListNode lre = new JavaMergeSorterList().merge2(l1, l2);
+    ListNode lre = new MergeSorterList().merge2(l1, l2);
     while (!Objects.isNull(lre)) {
       System.out.println(lre.getValue() + ", ");
       lre = lre.getNext();

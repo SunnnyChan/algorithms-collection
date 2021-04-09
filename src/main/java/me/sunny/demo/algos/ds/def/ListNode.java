@@ -1,4 +1,4 @@
-package me.sunny.demo.algos.ds.java.def;
+package me.sunny.demo.algos.ds.def;
 
 public class ListNode {
 

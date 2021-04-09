@@ -1,4 +1,4 @@
-package me.sunny.demo.algos.ds.java;
+package me.sunny.demo.algos.ds;
 
 import java.util.BitSet;
 
