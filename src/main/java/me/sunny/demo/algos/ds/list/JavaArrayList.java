@@ -1,4 +1,4 @@
-package me.sunny.demo.algos.ds;
+package me.sunny.demo.algos.ds.list;
 
 import java.util.ArrayList;
 import java.util.Arrays;
